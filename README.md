@@ -1,2 +1,2 @@
 # ForkTreeVisualizer
-Educational learning how fork() works
+Educational tool to visualize how fork() works.

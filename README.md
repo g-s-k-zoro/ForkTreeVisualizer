@@ -5,7 +5,7 @@ the Process tree is generated.
 Steps to Use - 
 
 Clone and -
-1. Install Graphviz on your OS - 
+1. Install Graphviz on your OS -  
 	a. Linux  : sudo apt-get install -y graphviz  
 	b. Windows : https://gitlab.com/graphviz/graphviz/-/package_files/8184046/download  
 				 Add to PATH for all/current user(s)  

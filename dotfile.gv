@@ -1,24 +1,18 @@
 digraph processTree {
-MAIN_PROCESS->2329;
-2329->2331;
-2329->2337;
-2329->2330;
-2329->2332;
-2330->2338;
-2330->2335;
-2330->2333;
-2331->2336;
-2331->2334;
-2332->2346;
-2332->2343;
-2333->2348;
-2333->2342;
-2334->2339;
-2335->2340;
-2335->2341;
-2340->2344;
-2342->2345;
-2343->2347;
-Processes_Spawned_20 [shape=polygon, sides=4, peripheries=2, color = red];
-MAIN_PROCESS [shape=polygon,sides=6,peripheries=2,color=lightgreen,style=filled]
+SYSTEM->5308;
+5308->5309;
+5308->5310;
+5310->5312;
+5310->5311;
+5311->5313;
+5311->5314;
+5308[label=0, shape=polygon, sides=5, peripheries=1, color = blue];
+5309[label=1];
+5310[label=2];
+5311[label=3];
+5312[label=4];
+5313[label=5];
+5314[label=6];
+Processes_Spawned_6 [shape=polygon, sides=4, peripheries=2, color = red];
+SYSTEM [shape=polygon,sides=6,peripheries=2,color=lightgreen,style=filled]
 }

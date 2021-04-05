@@ -11,7 +11,7 @@ Clone and -
 				 Add to PATH for all/current user(s)  
 	c. MacOS   : sudo port install graphviz OR brew install graphviz  
 
-2. Whatever snippet of code that involves spawning child processes using force, copy it and paste in
+2. Whatever snippet of code that involves spawning child processes using fork(), copy it and paste in
    the Custom Code Section in forkVisualizer.cpp - 
 
 //-----------------Custom Code Begins-------------------------------------------

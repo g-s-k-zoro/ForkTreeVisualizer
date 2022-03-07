@@ -22,7 +22,7 @@ Clone and -
   
 //-----------------Custom Code Ends---------------------------------------------
 
-3. Run forkVisualizer.cpp : - g++ forkVisualizer.cpp and the fork() Tree will be saved as ForkTree.png in the same directory.
+3. Run forkVisualizer.cpp : - execute /*make*/ command, followed by ./visualize. Tree will be generated and saved as ForkTree.png in the same directory.
 
 *Note : The tree generated is dependent on the order in which the processes are executed. Structure of trees for different orders is 
 uniform, but the process order may vary.
